@@ -1,2 +1,142 @@
-.attribution { font-size: 11px; text-align: center; }
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  background-color: #0d1a2d;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+.view-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  height: 20.661rem;
+  width: 20.499rem;
+  border-radius: 1rem;
+  padding: 8rem;
+  background-color: hsl(178, 100%, 50%, 50%);
+}
+
+.nftPccBox {
+  padding-bottom: 1rem;
+}
+
+.nftPccBox:first-child {
+  position: relative;
+}
+
+.nftPccBox:first-child img {
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.nftPccBox:first-child:hover .view-overlay{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.nftPccCon {
+
+  display: inline-flex;
+  align-items: center;
+}
+
+.nftPccCon:first-child {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+.nftPccCon:nth-child(2) {
+  float: right;
+}
+
+.nftPccConInfo {
+  margin-left: 0.5rem;
+}
+
+.avatarBox {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.avatarInfo {
+
+  margin-left: 1rem;
+}
+
+.avatarBox img {
+  width: 10%;
+  border-radius: 50%;
+  border: 0.120rem white solid;
+}
+
+.avatarName {
+  color: white;
+}
+
+.avatarName:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+#nft-pcc {
+  padding: 1.8rem;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 1rem;
+  color:hsl(215, 51%, 70%);
+  font-weight: 400;
+}
+
+#nft-pcc h1 {
+  color: white;
+  margin: 0.5rem 0 1rem 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#nft-pcc h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+#nft-pcc p {
+  padding-bottom: 1rem;
+}
+
+#nft-pcc hr {
+  border: 0.010rem hsl(215, 32%, 27%) solid;
+}
+
+#nft-pcc-box-1 {
+  background-color: #0c192c;
+  padding: 1.8rem;
+  margin: 5rem auto;
+  border-radius: 3rem;
+  width: 29.699rem;
+}
+
+#nft-pcc-box-2 {
+  padding: 0 1rem 3rem 1rem;
+  background-color: #0c1729;
+  border-radius: 3rem;
+}
+
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+
+.attribution { color: white; font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

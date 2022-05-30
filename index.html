@@ -12,35 +12,55 @@
     />
     <title>Frontend Mentor | NFT preview card component</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Overpass:wght@100&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <main id="nft-pcc" role="main">
-      <div class="nftPccBox">
-        <img src="./images/image-equilibrium.jpg" alt="image-equilibrium.jpg" />
+    <div id="nft-pcc-box-1">
+      <div id="nft-pcc-box-2">
+        <main id="nft-pcc" role="main">
+          <div class="nftPccBox">
+            <img
+              src="./images/image-equilibrium.jpg"
+              alt="image-equilibrium.jpg"
+            />
+            <div class="view-overlay">
+              <img src="./images/icon-view.svg" alt="icon-view" />
+            </div>
+          </div>
+          <h1>Equilibrium #3429</h1>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+          <div class="nftPccBox">
+            <span class="nftPccCon">
+              <img src="./images/icon-ethereum.svg" alt="icon-ethereum" />
+              <span class="nftPccConInfo">0.041 ETH</span>
+            </span>
+            <span class="nftPccCon">
+              <img src="./images/icon-clock.svg" alt="icon-clock" />
+              <span class="nftPccConInfo">3 days left</span>
+            </span>
+          </div>
+          <hr />
+          <div class="avatarBox">
+            <img src="./images/image-avatar.png" alt="image-avatar.png" />
+            <span class="avatarCon">
+              <span class="avatarInfo">
+                Creation of
+                <span class="avatarName">Jules Wyvern</span>
+              </span>
+            </span>
+          </div>
+        </main>
       </div>
-      <h1>Equilibrium #3429</h1>
-      <p>Our Equilibrium collection promotes balance and calm.</p>
-      <div class="nftPccBox">
-        <span class="nftPccCon">
-          <img src="./images/icon-ethereum.svg" alt="icon-ethereum" />
-          0.041 ETH
-        </span>
-        <span class="nftPccCon">
-          <img src="./images/icon-clock.svg" alt="icon-clock" />
-          3 days left
-        </span>
-      </div>
-      <hr />
-      <span>
-        <img src="./images/image-avatar.png" alt="image-avatar.png" />
-        <span>Creation of Jules Wyvern</span>
-      </span>
-    </main>
+    </div>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
         Frontend Mentor </a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/wafferu">Wafferu</a>.
     </div>
   </body>
 </html>
